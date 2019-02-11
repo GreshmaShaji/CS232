@@ -1,3 +1,6 @@
+Greshma Shaji
+CS-D-24
+
 Script started on Sunday 10 February 2019 11:11:13 PM IST
 To run a command as administrator (user "root"), use "sudo <command>".
 See "man sudo_root" for details.
@@ -40,7 +43,8 @@ drwxr-xr-x 2 greeshma greeshma  4096 Feb  7 21:32 [01;34mTemplates[0m
 drwxr-xr-x 2 greeshma greeshma  4096 Feb  7 21:32 [01;34mVideos[0m
 -rw-r--r-- 1 greeshma greeshma  8980 Feb  7 21:22 examples.desktop
 ]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ man ls -ly[Kt
-[?1049h[?1h=LS(1)                            User Commands                           LS(1)[m
+[?1049h[?1h=
+LS(1)                            User Commands                           LS(1)[m
 [m
 [1mNAME[0m[m
        ls - list directory contents[m
@@ -63,7 +67,8 @@ drwxr-xr-x 2 greeshma greeshma  4096 Feb  7 21:32 [01;34mVideos[0m
               do not list implied . and ..[m
 [m
        [1m--author[0m[m
-[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049lNo manual entry for -lt
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049lNo manual entry for -lt
 ]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ ls a*
 ls: cannot access 'a*': No such file or directory
 ]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ ls a[K[K[K[Kcat>a.txt
@@ -292,7 +297,8 @@ b.txt                      [01;34mDownloads[0m         [01;34mMusic[0m      
 ceccs17d24.10.02.2019.txt  examples.desktop  Newfile.txt       Untitled 1.txt
 [01;34mDesktop[0m                    marklist.txt      [01;34mPictures[0m          [01;34mVideos[0m
 ]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ man free
-[?1049h[?1h=FREE(1)                          User Commands                         FREE(1)[m
+[?1049h[?1h=
+FREE(1)                          User Commands                         FREE(1)[m
 [m
 [1mNAME[0m[m
        free - Display amount of free and used memory in the system[m
@@ -315,7 +321,8 @@ ceccs17d24.10.02.2019.txt  examples.desktop  Newfile.txt       Untitled 1.txt
        [1mshared[0m Memory used (mostly) by tmpfs (Shmem in /proc/meminfo, available[m
               on kernels 2.6.32, displayed as zero if not available)[m
 [m
-[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ 
+[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ 
 ]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ free
               total        used        free      shared  buff/cache   available
 Mem:        1022084      552476      127764       53160      341844      265964
