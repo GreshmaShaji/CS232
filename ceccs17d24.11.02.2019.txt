@@ -1,3 +1,6 @@
+Greshma shaji
+cs-d-24
+
 Script started on Monday 11 February 2019 07:18:41 PM IST
 To run a command as administrator (user "root"), use "sudo <command>".
 See "man sudo_root" for details.
@@ -1847,7 +1850,8 @@ EC110(O)
 
 Controller of Examinations
 
-]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ cat result_CHN.txt[21@pdftotext result_CHN.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[K[K[K[Kgrep[K[K[K[Kca[K[Kgrep '[K"CHN17CS" RE\[K[K[Kresut_CHN,[K.txt>[K>result_cs.txt
+]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ cat result_CHN.txt[21@pdftotext result_CHN.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[K[K[K[Kgrep[K[K[K[Kca[K[Kgrep '[K"CHN17CS" RE\[K[K[Kresut_CHN,[K.txt>[K>result_cs.txt
 grep: resut_CHN.txt: No such file or directory
 ]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ grep "CHN17CS" resut_CHN.txt>result_cs.txt[C[C[C[C[C[Clt_CHN.txt>result_cs.txt
 ]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ greo[Kp result[K[K[K[K[K[K[K CHN17CS053 result_cs.txt
@@ -1974,12 +1978,30 @@ CHN17CS117
 CHN17CS118
 CHN17CS119
 CHN17CS120
-]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ cat CS_result.txtgrep "CHN17CS" result_CHN.txt>CS_result.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14PCHN17CS053 result_cs.txt"CHN17CS" result_CHN.txt>result_cs.txt[1Pt_CHN.txt>result_cs.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pcat result_CHN.txt[21@pdftotext result_CHN.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kpdftotext result_CHN.pdf result_CHN.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat marklist.txt[12@grep CHN17CS053[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcat marklist.txt.odsscript ceccs17d24.10.02.2019.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kfreeman freels[Krm newgroup[K[K[K[K[K[K[K[K[K[K[Kls[K[Kln -s a.txt newgrouppwd[K[1Pcdpwd[K[K[Kcat c.txt[K[K[K[K[K[K[K[K[K[K]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ cdpwdln -s a.txt newgroup[Klsman free[4Pfreeexitscript ceccs17d24.10.02.2019.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcat marklist.txt.odsgrep CHN17CS053 marklist.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcat[C[C[C[C[C[C[C[C[C[C[C[C[Cpdftotext result_CHN.pdf result_CHN.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[K[K[K[Krm CHN17CS053 RE[K[Kresult_CHN.txt
+]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ cat CS_result.txtgrep "CHN17CS" result_CHN.txt>CS_result.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14PCHN17CS053 result_cs.txt"CHN17CS" result_CHN.txt>result_cs.txt[1Pt_CHN.txt>result_cs.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pcat result_CHN.txt[21@pdftotext result_CHN.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kpdftotext result_CHN.pdf result_CHN.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat marklist.txt[12@grep CHN17CS053[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcat marklist.txt.odsscript ceccs17d24.10.02.2019.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kfreeman freels[Krm newgroup[K[K[K[K[K[K[K[K[K[K[Kls[K[Kln -s a.txt newgrouppwd[K[1Pcdpwd[K[K[Kcat c.txt[K[K[K[K[K[K[K[K[K
+[K]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ cdpwdln -s a.txt newgroup[Klsman free[4Pfreeexitscript ceccs17d24.10.02.2019.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcat marklist.txt.odsgrep CHN17CS053 marklist.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcat[C[C[C[C[C[C[C[C[C[C[C[C[Cpdftotext result_CHN.pdf result_CHN.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[K[K[K[Krm CHN17CS053 RE[K[Kresult_CHN.txt
 rm: cannot remove 'CHN17CS053': No such file or directory
-]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ rm CHN17CS053 result_CHN.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcat CS_result.txtgrep "CHN17CS" result_CHN.txt>CS_result.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14PCHN17CS053 result_cs.txt"CHN17CS" result_CHN.txt>CS_result.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pcat CS_result.txtrm CHN17CS053 result_CHN.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpdftotext result_CHN.txt re[K[K[K[K[K[Kpdf result_CHN.pdf[K[K[Ktxt
+]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ rm CHN17CS053 result_CHN.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcat CS_result.txtgrep "CHN17CS" result_CHN.txt>CS_result.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14PCHN17CS053 result_cs.txt"CHN17CS" result_CHN.txt>CS_result.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pcat CS_result.txtrm CHN17CS053 result_CHN.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpdftotext result_CHN.txt re[K[K[K[K[K[Kpdf result_CHN.pdf[K[K[Ktxt
 ]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ sed -i's/(A[KO)/10[K[K 10[K[K(10) /g' result_CHN.txt
 sed: no input files
-]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ sed -i's/(O)/ (10) /g' result_CHN.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpdftotext result_CHN.pdf result_CHN.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Prm CHN17CS053[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11@pdftotext result_CHN.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed -i'[K[Ksed -i'pdftotext result_CHN.pdf result_CHN.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed -i'[Ks/(O)/ (10) /g' re[K[Ks4d.txt
+]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ sed -i's/(O)/ (10) /g' result_CHN.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpdftotext result_CHN.pdf result_CHN.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Prm CHN17CS053[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11@pdftotext result_CHN.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed -i'[K[Ksed -i'pdftotext result_CHN.pdf result_CHN.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed -i'[Ks/(O)/ (10) /g' re[K[Ks4d.txt
 sed: -e expression #1, char 7: unterminated `s' command
 ]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ grep sd[K4d.txt
 ^C
