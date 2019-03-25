@@ -1,3 +1,6 @@
+Greshma Shaji
+Roll no: 24
+
 pdftotext -nopgbrk result1.pdf
 grep --no-group-separator -A3 'CHN17CS' result1.txt | tr '\n' ' ' | sed 's/\ CHN/\nCHN/g' > result.txt
 sed -i 's/(O)/ 10  /g' result.txt
