@@ -1,0 +1,494 @@
+Script started on 2019-02-25 22:12:44+0530
+
+greeshma@Vbubuntu$ ssh cs17d24@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d24@14.139.189.217's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+55 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 25 11:58:09 2019 from 49.15.212.32
+
+$ ls
+a.txt
+ceccs17d24.10.02.2019.txt
+ceccs17d24.10.04.2019
+ceccs17d24.11.02.2019(t2).txt
+ceccs17d24.11.02.2019.txt
+ceccs17d24.24.03.2019.sh
+ceccs17d24.25.02.2019.txt
+examples.desktop
+http.png
+index.html
+newfile.txt
+
+$ rsync -ah --info=progress2 a cs17d24@14.139.189.217:~/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d24@14.139.189.217's password: 
+$ ls
+a.txt
+ceccs17d24.10.02.2019.txt
+ceccs17d24.10.04.2019
+ceccs17d24.11.02.2019(t2).txt
+ceccs17d24.11.02.2019.txt
+ceccs17d24.24.03.2019.sh
+ceccs17d24.25.02.2019.txt
+examples.desktop
+http.png
+index.html
+newfile.txt
+$ rm a.txt        
+
+
+$ ls
+ceccs17d24.10.02.2019.txt
+ceccs17d24.10.04.2019
+ceccs17d24.11.02.2019(t2).txt
+ceccs17d24.11.02.2019.txt
+ceccs17d24.24.03.2019.sh
+ceccs17d24.25.02.2019.txt
+examples.desktop
+http.png
+index.html
+newfile.txt
+$ exit
+Connection to 14.139.189.217 closed.
+
+greeshma@Vbubuntu$ e[Kssh cs17d24@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d24@14.139.189.217's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+55 packages can be updated.
+0 updates are security updates.
+
+Last login: Sat May  4 22:15:04 2019 from 49.15.205.204
+
+$ ls
+ceccs17d24.10.02.2019.txt
+ceccs17d24.10.04.2019
+ceccs17d24.11.02.2019(t2).txt
+ceccs17d24.11.02.2019.txt
+ceccs17d24.24.03.2019.sh
+ceccs17d24.25.02.2019.txt
+examples.desktop
+http.png
+index.html
+newfile.txt
+$ cat index.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>cs17d24</title>
+
+  </head>
+  <body>
+    <div align="center">S4D<b><h2> CS232 Free and Open Source Software Lab</h2><br>
+        <br>
+        Home page of cs17d24 <br>
+      </b>
+      <table width="100%" border="1" cellspacing="2" cellpadding="2">
+        <tbody>
+          <tr>
+            <td valign="top"><b>No</b><br>
+            </td>
+            <td valign="top">Experiment Description<br>
+            </td>
+            <td valign="top">Code Link<br>
+            </td>
+            <td valign="top">Date of <br>
+              Upload<br>
+            </td>
+            <td valign="top">Description/Link<br>
+            </td>
+            <td valign="top">Result/Link<br>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">1<br>
+            </td>
+            <td valign="top">Linux Commands<br>
+            </td>
+            <td valign="top"><a href="http://14.139.189.217/cs17d/cs17d24/ceccs17d24.10.02.2019.txt">Task 1</a><br>
+            </td>
+            <td valign="top">10/02/2019<br>
+            </td>
+            <td valign="top"><a href="https://raw.githubusercontent.com/ceccs17d24/CS232/master/ceccs17d24.10.02.2019.txt">GitHub</a><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">2<br>
+            </td>
+            <td valign="top">Scripting Task-CGPA calculation<br>
+            </td>
+            <td valign="top"><a href="http://14.139.189.217/cs17d/cs17d24/ceccs17d24.11.02.2019.txt">Task 2(1)</a></br><a href="http://14.139.189.217/cs17d/cs17d24/ceccs17d24.11.02.2019(t2).txt">Task 2(2)</a><a href="http://14.139.189.217/cs17d/cs17d24/ceccs17d24.24.03.2019.sh"Task 2(3)></a><br>
+            </td>
+            <td valign="top">11/02/2019<br>
+            </td>
+            <td valign="top"><a href="https://raw.githubusercontent.com/ceccs17d24/CS232/master/ceccs17d24.11.02.2019.txt">GitHub(1)</a></br><a href="https://raw.githubusercontent.com/ceccs17d24/CS232/master/ceccs17d24.11.02.2019(t2).txt">GitHub(2)</a></br><a href="https://raw.githubusercontent.com/ceccs17d24/CS232/master/ceccs17d24.24.03.2019.sh">GitHub(3)</a><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">3<br>
+            </td>
+            <td valign="top">Networking Tasks<br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">4<br>
+            </td>
+            <td valign="top">SSH,RSync,SCP<br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">5<br>
+            </td>
+            <td valign="top">FTP Server<br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">6<br>
+            </td>
+            <td valign="top">Linux Installation<br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+          </tr>
+<tr>
+            <td valign="top">7<br>
+            </td>
+            <td valign="top">HTTP and FTP server<br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+          </tr>
+<tr>
+            <td valign="top">8<br>
+            </td>
+            <td valign="top">Further Tasks<br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            </tr>
+           <tr>
+            <td valign="top">8a<br>
+            </td>
+            <td valign="top">Package Management<br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+          </tr>
+<tr>
+            <td valign="top">8b<br>
+            </td>
+            <td valign="top">perl<br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">8c<br>
+            </td>
+            <td valign="top">Lamp stack<br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+          </tr>
+<tr>
+            <td valign="top">8d<br>
+            </td>
+            <td valign="top">Kernal Compilation<br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+          </tr>
+<tr>
+            <td valign="top">9<br>
+            </td>
+            <td valign="top">Create own web server<br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+            </td>
+            <td valign="top"><br>
+          $  </td>
+          </tr>
+        </tbody>
+      </table>
+      <b><br>
+        <br>
+      </b></div>
+  </body>
+</html>
+
+$ mkdir test
+
+$ cd test
+
+$ pwd
+/home/cs17d24/test
+
+$ cd
+$ pwd
+/home/cs17d24
+
+$ cd ..
+$ pwd
+/home
+
+$ grep 'html' index.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</html>
+$ du index.html
+8	index.html
+$ nano index.html
+$ rm -r test
+$ exit
+Connection to 14.139.189.217 closed.
+
+greeshma@Vbubuntu$ cat>test.txt
+My name is Greshma SHAJI    hJAI   aji. I am studing in CEC ,2nd yr, .B.tech in Cs.
+^C
+greeshma@Vbubuntu$ scp test.txt cs17d24@14.139.189.21 
+7:/home/cs17d24
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d24@14.139.189.217's password: 
+
+test.txt               0%    0     0.0KB/s   --:-- ETA
+test.txt             100%   68     0.3KB/s   00:00    
+greeshma@Vbubuntu$ mkdir sample
+greeshma@Vbubuntu$ cd sample
+greeshma@Vbubuntu$ cat>test_st2.txt
+Hye  ey. ,Gud n mrng.!^C
+greeshma@Vbubuntu$ cd ..
+greeshma@Vbubuntu$ scp -r saampletest cs17d24@14.139.189.217 
+:/home/cs17d24
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d24@14.139.189.217's password: 
+
+
+greeshma@Vbubuntu$ sudo apt-get install rsync
+[sudo] password for greeshma: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 61%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+rsync is already the newest version (3.1.2-2.1ubuntu1).
+The following packages were automatically installed and are no longer required:
+  libcapnp-0.5.3 libhardware2 libhybris
+  libhybris-common1 libllvm6.0 libmedia1
+  libwebpdemux1 linux-generic linux-generic-hwe-16.04
+  linux-headers-generic
+  linux-headers-generic-hwe-16.04
+  linux-image-generic-hwe-16.04
+  linux-modules-4.15.0-29-generic snapd-login-service
+  xserver-xorg-input-evdev-hwe-16.04
+  xserver-xorg-input-synaptics-hwe-16.04
+  xserver-xorg-legacy-hwe-16.04
+  xserver-xorg-video-amdgpu-hwe-16.04
+  xserver-xorg-video-qxl-hwe-16.04
+  xserver-xorg-video-vesa-hwe-16.04
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 112 not upgraded.
+greeshma@Vbubuntu$ cat>test1.txt
+Hey,coming
+^C
+mgreeshma@Vbubuntu$ rsync -avz test3.txt cs17d24@14.13 
+9.189.217:/home/cs17d24
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d24@14.139.189.217's password: 
+sending incremental file list
+test3.txt
+
+sent 123 bytes  received 35 bytes  21.07 bytes/sec
+total size is 11  speedup is 0.07
+greeshma@Vbubuntu$ ls
+$ rsync -avzh cs17d24@14.139.189.217 
+:/home/cs17d24/index.html /home/greeshma
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d24@14.139.189.217's password: 
+receiving incremental file list
+index.html
+
+sent 103 bytes  received 196 bytes  31.47 bytes/sec
+total size is 6.40K  speedup is 21.41
+
+
+
+
+$ rm test3.txt
+exit
+
+mgreeshma@Vbubuntu$ sftp cs17d24.@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d24@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> ls
+ceccs17d24.10.02.2019.txt                              
+ceccs17d24.10.04.2019                                  
+ceccs17d24.11.02.2019(t2).txt                          
+ceccs17d24.11.02.2019.txt                              
+ceccs17d24.24.03.2019.sh                               
+ceccs17d24.25.02.2019.txt                              
+examples.desktop                                       
+http.png                                               
+index.html                                             
+newfile.txt                                            
+test.txt                                               
+test3.txt                                              
+sftp> rm test.tc[Kxt
+Removing /home/cs17d24/test.txt
+sftp> rm test3,[K.txt
+Removing /home/cs17d24/test3.txt
+sftp> ls
+ceccs17d24.10.02.2019.txt                              
+ceccs17d24.10.04.2019                                  
+ceccs17d24.11.02.2019(t2).txt                          
+ceccs17d24.11.02.2019.txt                              
+ceccs17d24.24.03.2019.sh                               
+ceccs17d24.25.02.2019.txt                              
+examples.desktop                                       
+http.png                                               
+index.html                                             
+newfile.txt                                            
+sftp> bye
+greeshma@Vbubuntu$ exit
+exit
+
+Script done on 2019-02-25 22:52:41+0530
