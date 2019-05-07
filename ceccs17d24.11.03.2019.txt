@@ -1,0 +1,71 @@
+Greshma Shaji
+s4 d
+roll: 24
+
+
+Script started on 2019-02-11 23:00:53+0530
+greeshma@Vbubuntu$ sftp ceccs17d24@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d24@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> ls
+ceccs17d24.10.02.2019.txt               ceccs17d24.10.04.2019                   
+ceccs17d24.11.02.2019(t2).txt           ceccs17d24.11.02.2019.txt               
+ceccs17d24.24.03.2019.sh                ceccs17d24.25.02.19.txt                 
+ceccs17d24.25.02.2019.txt               examples.desktop                        
+http.png                                index.html                              
+newfile.txt                             
+sftp> lpwd
+Local working directory: /home/greeshma
+sftp> lls
+ ceccs17d.18.03.19.txt		  cs17d24@192.168.0.20	 result_CHN.pdf
+ ceccs17d24.10.02.2019.txt	  cs17d24@192.168.0.30	 result_CHN.txt
+ ceccs17d24.10.03.2019		  Desktop		 result_cs.txt
+ ceccs17d24.10.04.2019		  Documents		 results2.txt
+'ceccs17d24.11.02.2019(t2).txt'   Downloads		 s1s2final.txt
+ ceccs17d24.11.02.2019.txt	  examples.desktop	 s1_sgpa.txt
+ ceccs17d24.11.03.2019.txt	  index.h		 s1sgpa.txt
+ ceccs17d24.11.04.2019.txt	  index.html		 s1.txt
+ ceccs17d24.18.03.3019.txt	  ktu.edu.in		 s2results.pdf
+ ceccs17d24.24.03.2019.sh	  Music			 s2results.txt
+ ceccs17d24.24.03.2019.txt	  new			 s4d.txt
+ ceccs17d24.25.02.19.txt	  new.txt		 sample
+ ceccs17d24.25.02.2019.txt	  perl			'Task 2.txt'
+ ceccs17d24.25.03.2019		  Pictures		 Templates
+ ceccs17d24.29.04.2019.txt	  Public		 test.txt
+ ceccs17d24.txt			  reg2.txt		 today.txt
+ cs17d24			  res2.txt		 Videos
+ cs17d24@14.139.189.217		  res.txt
+sftp> put ceccs17d24.25.03.2019.txt
+stat ceccs17d24.25.03.2019.txt: No such file or directory
+
+sftp> '/home/greeshma/ceccs17d24.11.03.2019.txt' 
+Uploading /home/greeshma/ceccs17d24.11.03.2019.txt to /home/cs17d24/ceccs17d24.11.03.2019.txt
+
+/home/greeshma/ceccs17d24.11.03.2019.txt        0%    0     0.0KB/s   --:-- ETA
+/home/greeshma/ceccs17d24.11.03.2019.txt      100% 4096     9.1KB/s   00:00    
+sftp> ls
+ceccs17d24.10.02.2019.txt               ceccs17d24.10.04.2019                   
+ceccs17d24.11.02.2019(t2).txt           ceccs17d24.11.02.2019.txt               
+ceccs17d24.11.03.2019.txt               ceccs17d24.24.03.2019.sh                
+ceccs17d24.25.02.19.txt                 ceccs17d24.25.02.2019.txt               
+examples.desktop                        http.png                                
+index.html                              newfile.txt                             
+sftp> rm  ceccs17d24.11.03.2019.txt
+Removing /home/cs17d24/ceccs17d24.11.03.2019.txt
+sftp> ls
+ceccs17d24.10.02.2019.txt               ceccs17d24.10.04.2019                   
+ceccs17d24.11.02.2019(t2).txt           ceccs17d24.11.02.2019.txt               
+ceccs17d24.24.03.2019.sh                ceccs17d24.25.02.19.txt                 
+ceccs17d24.25.02.2019.txt               examples.desktop                        
+http.png                                index.html                              
+newfile.txt                             
+sftp> bye
+greeshma@Vbubuntu$ exit
+exit
+
+Script done on 2019-02-11 23:04:03+0530
