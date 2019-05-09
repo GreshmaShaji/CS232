@@ -1,0 +1,599 @@
+Script started on 2019-05-09 16:45:27+0530
+greeshma@Vbubuntu$ sudo apt update
+[sudo] password for greeshma: 
+[33m
+0% [Working][0m[33m
+0% [Connecting to in.archive.ubuntu.com (91.189.88.149)] [Waiting for headers][0m
+                                                                              
+Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+[33m
+                                                                              
+0% [Waiting for headers] [1 InRelease 0 B/88.7 kB 0%][0m
+                                                     
+Hit:2 http://in.archive.ubuntu.com/ubuntu bionic InRelease
+[33m
+0% [Waiting for headers] [1 InRelease 29.6 kB/88.7 kB 33%][0m[33m
+0% [2 InRelease gpgv 242 kB] [Waiting for headers] [1 InRelease 29.6 kB/88.7 kB[0m
+                                                                               
+Get:3 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+[33m
+0% [2 InRelease gpgv 242 kB] [3 InRelease 2,308 B/88.7 kB 3%] [1 InRelease 29.6[0m[33m
+0% [2 InRelease gpgv 242 kB] [3 InRelease 41.3 kB/88.7 kB 47%] [1 InRelease 69.[0m[33m
+                                                                               
+0% [2 InRelease gpgv 242 kB] [3 InRelease 72.5 kB/88.7 kB 82%][0m[33m
+                                                              
+0% [2 InRelease gpgv 242 kB][0m
+                            
+Get:4 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+[33m
+0% [2 InRelease gpgv 242 kB] [4 InRelease 2,308 B/74.6 kB 3%][0m[33m
+                                                             
+0% [4 InRelease 74.6 kB/74.6 kB 100%][0m[33m
+                                     
+0% [Working][0m[33m
+0% [1 InRelease gpgv 88.7 kB][0m[33m
+                             
+0% [Working][0m[33m
+0% [3 InRelease gpgv 88.7 kB][0m[33m
+                             
+0% [Working][0m[33m
+0% [4 InRelease gpgv 74.6 kB] [Waiting for headers][0m
+                                                   
+Get:5 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [503 kB]
+[33m
+0% [4 InRelease gpgv 74.6 kB] [5 Packages 0 B/503 kB 0%][0m[33m
+                                                        
+35% [5 Packages 63.5 kB/503 kB 13%][0m[33m
+                                   
+41% [5 Packages 191 kB/503 kB 38%][0m[33m
+44% [5 Packages 256 kB/503 kB 51%][0m[33m
+51% [5 Packages 395 kB/503 kB 78%][0m[33m
+53% [5 Packages 444 kB/503 kB 88%][0m[33m
+56% [5 Packages 500 kB/503 kB 99%]                                  120 kB/s 7s[0m[33m
+56% [5 Packages 502 kB/503 kB 100%]                                 120 kB/s 7s[0m[33m
+56% [Working]                                                       120 kB/s 7s[0m[33m
+56% [5 Packages store 0 B] [Waiting for headers]                    120 kB/s 7s[0m
+                                                                               
+Get:6 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [918 kB]
+[33m
+56% [5 Packages store 0 B] [6 Packages 0 B/918 kB 0%]               120 kB/s 7s[0m[33m
+59% [6 Packages 58.3 kB/918 kB 6%]                                  120 kB/s 7s[0m[33m
+62% [6 Packages 123 kB/918 kB 13%]                                  120 kB/s 6s[0m[33m
+68% [6 Packages 253 kB/918 kB 28%]                                  120 kB/s 5s[0m[33m
+71% [6 Packages 318 kB/918 kB 35%]                                  120 kB/s 4s[0m[33m
+74% [6 Packages 383 kB/918 kB 42%]                                  120 kB/s 4s[0m[33m
+77% [6 Packages 430 kB/918 kB 47%]                                  120 kB/s 4s[0m[33m
+81% [6 Packages 516 kB/918 kB 56%]                                  120 kB/s 3s[0m[33m
+84% [6 Packages 590 kB/918 kB 64%]                                  120 kB/s 2s[0m[33m
+86% [6 Packages 628 kB/918 kB 68%]                                  120 kB/s 2s[0m[33m
+87% [6 Packages 639 kB/918 kB 70%]                                  120 kB/s 2s[0m[33m
+87% [6 Packages 639 kB/918 kB 70%]                                 99.7 kB/s 2s[0m[33m
+88% [6 Packages 663 kB/918 kB 72%]                                 99.7 kB/s 2s[0m[33m
+90% [6 Packages 717 kB/918 kB 78%]                                 99.7 kB/s 2s[0m[33m
+93% [6 Packages 775 kB/918 kB 84%]                                 99.7 kB/s 1s[0m[33m
+94% [6 Packages 806 kB/918 kB 88%]                                 99.7 kB/s 1s[0m[33m
+95% [6 Packages 808 kB/918 kB 88%]                                 99.7 kB/s 1s[0m[33m
+95% [6 Packages 810 kB/918 kB 88%]                                 99.7 kB/s 1s[0m[33m
+98% [6 Packages 873 kB/918 kB 95%]                                 99.7 kB/s 0s[0m[33m
+100% [Working]                                                     99.7 kB/s 0s[0m[33m
+100% [6 Packages store 0 B]                                        99.7 kB/s 0s[0m[33m
+100% [6 Packages store 0 B]                                        99.7 kB/s 0s[0m[33m
+100% [6 Packages store 0 B]                                        99.7 kB/s 0s[0m[33m
+100% [Working]                                                     99.7 kB/s 0s[0m
+                                                                               
+Fetched 1,674 kB in 18s (94.5 kB/s)
+
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 3%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 20%
+
+Reading package lists... 33%
+
+Reading package lists... 46%
+
+Reading package lists... 53%
+
+Reading package lists... 53%
+
+Reading package lists... 58%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 97%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+All packages are up to date.
+
+greeshma@Vbubuntu$ sudo apt install apache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 80%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+apache2 is already the newest version (2.4.29-1ubuntu4.6).
+The following packages were automatically installed and are no longer required:
+  i965-va-driver liba52-0.7.4 libaacs0 libaribb24-0 libass9 libavcodec57
+  libavformat57 libavutil55 libbasicusageenvironment1 libbdplus0 libbluray2
+  libcddb2 libchromaprint1 libcrystalhd3 libdc1394-22 libdca0 libdvbpsi10
+  libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1
+  libkate1 liblivemedia62 libmad0 libmatroska6v5 libmicrodns0 libmpcdec6
+  libmpeg2-4 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0 libplacebo4
+  libpostproc54 libproxy-tools libqt5x11extras5 libresid-builder0c2a
+  libsdl-image1.2 libsdl1.2debian libshine3 libsidplay2 libsnappy1v5 libsoxr0
+  libssh-gcrypt-4 libssh2-1 libswresample2 libswscale4 libupnp6
+  libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2 libva2 libvdpau1
+  libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-146
+  libxvidcore4 libzvbi-common libzvbi0 linux-headers-4.15.0-46
+  linux-headers-4.15.0-46-generic linux-image-4.15.0-46-generic
+  linux-modules-4.15.0-46-generic linux-modules-extra-4.15.0-46-generic
+  mesa-va-drivers mesa-vdpau-drivers va-driver-all vdpau-driver-all vlc-bin
+  vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt
+  vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output
+  vlc-plugin-video-splitter vlc-plugin-visualization
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ sudo ufw app list
+Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  CUPS
+  Nginx Full
+  Nginx HTTP
+  Nginx HTTPS
+  OpenSSH
+greeshma@Vbubuntu$ sudo systemctl enable apache2
+Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable apache2
+greeshma@Vbubuntu$ cd /var/www/html/
+greeshma@Vbubuntu$ ls
+index.html  index.nginx-debian.html  info.php  new.html
+greeshma@Vbubuntu$ sudo rm index.nginx-debian.html
+
+
+greeshma@Vbubuntu$ gedit Newpage.html
+
+greeshma@Vbubuntu$ sudo apt install mariadb-server
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 85%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ mariadb-server : Depends: mariadb-server-10.1 (>= 1:10.1.38-0ubuntu0.18.04.1) but it is not going to be installed
+E: Unable to correct problems, you have held broken packages.
+]0;greeshma@Vbubuntu: /var/www/html[01;32mgreeshma@Vbubuntu[00m:[01;34m/var/www/html[00m$ sudo mysql-secure[K[K[K[K[K[K[K_secure [K_installation
+
+Securing the MySQL server deployment.
+
+Connecting to MySQL using a blank password.
+The 'validate_password' plugin is installed on the server.
+The subsequent steps will run with the existing configuration
+of the plugin.
+Please set the password for root here.
+
+New password: 
+
+Re-enter new password: 
+
+Estimated strength of the password: 25 
+Do you wish to continue with the password provided?(Press y|Y for Yes, any other key for No) : y
+By default, a MySQL installation has an anonymous user,
+allowing anyone to log into MySQL without having to have
+a user account created for them. This is intended only for
+testing, and to make the installation go a bit smoother.
+You should remove them before moving into a production
+environment.
+
+Remove anonymous users? (Press y|Y for Yes, any other key for No) : n
+
+ ... skipping.
+
+
+Normally, root should only be allowed to connect from
+'localhost'. This ensures that someone cannot guess at
+the root password from the network.
+
+Disallow root login remotely? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+By default, MySQL comes with a database named 'test' that
+anyone can access. This is also intended only for testing,
+and should be removed before moving into a production
+environment.
+
+
+Remove test database and access to it? (Press y|Y for Yes, any other key for No) : y
+ - Dropping test database...
+Success.
+
+ - Removing privileges on test database...
+Success.
+
+Reloading the privilege tables will ensure that all changes
+made so far will take effect immediately.
+
+Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+All done! 
+]0;greeshma@Vbubuntu: /var/www/html[01;32mgreeshma@Vbubuntu[00m:[01;34m/var/www/html[00m$ sudo mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 6
+Server version: 5.7.26-0ubuntu0.18.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2019, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> sudo apt install php libapache2-mod-php php-mysql
+    -> sudo vim /etc/apache2/mods-enabled/dir.conf
+    -> sudo systemctl restart apache2
+    -> sudo systemctl status apache2
+    -> \c[Kh
+
+For information about MySQL products and services, visit:
+   http://www.mysql.com/
+For developer information, including the MySQL Reference Manual, visit:
+   http://dev.mysql.com/
+To buy MySQL Enterprise support, training, or other products, visit:
+   https://shop.mysql.com/
+
+List of all MySQL commands:
+Note that all text commands must be first on line and end with ';'
+?         (\?) Synonym for `help'.
+clear     (\c) Clear the current input statement.
+connect   (\r) Reconnect to the server. Optional arguments are db and host.
+delimiter (\d) Set statement delimiter.
+edit      (\e) Edit command with $EDITOR.
+ego       (\G) Send command to mysql server, display result vertically.
+exit      (\q) Exit mysql. Same as quit.
+go        (\g) Send command to mysql server.
+help      (\h) Display this help.
+nopager   (\n) Disable pager, print to stdout.
+notee     (\t) Don't write into outfile.
+pager     (\P) Set PAGER [to_pager]. Print the query results via PAGER.
+print     (\p) Print current command.
+prompt    (\R) Change your mysql prompt.
+quit      (\q) Quit mysql.
+rehash    (\#) Rebuild completion hash.
+source    (\.) Execute an SQL script file. Takes a file name as an argument.
+status    (\s) Get status information from the server.
+system    (\!) Execute a system shell command.
+tee       (\T) Set outfile [to_outfile]. Append everything into given outfile.
+use       (\u) Use another database. Takes database name as argument.
+charset   (\C) Switch to another charset. Might be needed for processing binlog with multi-byte charsets.
+warnings  (\W) Show warnings after every statement.
+nowarning (\w) Don't show warnings after every statement.
+resetconnection(\x) Clean session context.
+
+For server side help, type 'help contents'
+
+    -> \s
+--------------
+mysql  Ver 14.14 Distrib 5.7.26, for Linux (i686) using  EditLine wrapper
+
+Connection id:		6
+Current database:	
+Current user:		root@localhost
+SSL:			Not in use
+Current pager:		stdout
+Using outfile:		''
+Using delimiter:	;
+Server version:		5.7.26-0ubuntu0.18.04.1 (Ubuntu)
+Protocol version:	10
+Connection:		Localhost via UNIX socket
+Server characterset:	latin1
+Db     characterset:	latin1
+Client characterset:	utf8
+Conn.  characterset:	utf8
+UNIX socket:		/var/run/mysqld/mysqld.sock
+Uptime:			4 hours 21 min 55 sec
+
+Threads: 1  Questions: 18  Slow queries: 0  Opens: 113  Flush tables: 1  Open tables: 106  Queries per second avg: 0.001
+--------------
+
+    -> q
+q
+^C
+mysql> \h
+
+For information about MySQL products and services, visit:
+   http://www.mysql.com/
+For developer information, including the MySQL Reference Manual, visit:
+   http://dev.mysql.com/
+To buy MySQL Enterprise support, training, or other products, visit:
+   https://shop.mysql.com/
+
+List of all MySQL commands:
+Note that all text commands must be first on line and end with ';'
+?         (\?) Synonym for `help'.
+clear     (\c) Clear the current input statement.
+connect   (\r) Reconnect to the server. Optional arguments are db and host.
+delimiter (\d) Set statement delimiter.
+edit      (\e) Edit command with $EDITOR.
+ego       (\G) Send command to mysql server, display result vertically.
+exit      (\q) Exit mysql. Same as quit.
+go        (\g) Send command to mysql server.
+help      (\h) Display this help.
+nopager   (\n) Disable pager, print to stdout.
+notee     (\t) Don't write into outfile.
+pager     (\P) Set PAGER [to_pager]. Print the query results via PAGER.
+print     (\p) Print current command.
+prompt    (\R) Change your mysql prompt.
+quit      (\q) Quit mysql.
+rehash    (\#) Rebuild completion hash.
+source    (\.) Execute an SQL script file. Takes a file name as an argument.
+status    (\s) Get status information from the server.
+system    (\!) Execute a system shell command.
+tee       (\T) Set outfile [to_outfile]. Append everything into given outfile.
+use       (\u) Use another database. Takes database name as argument.
+charset   (\C) Switch to another charset. Might be needed for processing binlog with multi-byte charsets.
+warnings  (\W) Show warnings after every statement.
+nowarning (\w) Don't show warnings after every statement.
+resetconnection(\x) Clean session context.
+
+For server side help, type 'help contents'
+
+mysql> \q
+Bye
+greeshma@Vbubuntu$ sudo apt install php libapache2-mod-pho
+
+ql
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 79%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+libapache2-mod-php is already the newest version (1:7.2+60ubuntu1).
+php is already the newest version (1:7.2+60ubuntu1).
+php-mysql is already the newest version (1:7.2+60ubuntu1).
+The following packages were automatically installed and are no longer required:
+  i965-va-driver liba52-0.7.4 libaacs0 libaribb24-0 libass9 libavcodec57
+  libavformat57 libavutil55 libbasicusageenvironment1 libbdplus0 libbluray2
+  libcddb2 libchromaprint1 libcrystalhd3 libdc1394-22 libdca0 libdvbpsi10
+  libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1
+  libkate1 liblivemedia62 libmad0 libmatroska6v5 libmicrodns0 libmpcdec6
+  libmpeg2-4 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0 libplacebo4
+  libpostproc54 libproxy-tools libqt5x11extras5 libresid-builder0c2a
+  libsdl-image1.2 libsdl1.2debian libshine3 libsidplay2 libsnappy1v5 libsoxr0
+  libssh-gcrypt-4 libssh2-1 libswresample2 libswscale4 libupnp6
+  libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2 libva2 libvdpau1
+  libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-146
+  libxvidcore4 libzvbi-common libzvbi0 linux-headers-4.15.0-46
+  linux-headers-4.15.0-46-generic linux-image-4.15.0-46-generic
+  linux-modules-4.15.0-46-generic linux-modules-extra-4.15.0-46-generic
+  mesa-va-drivers mesa-vdpau-drivers va-driver-all vdpau-driver-all vlc-bin
+  vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt
+  vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output
+  vlc-plugin-video-splitter vlc-plugin-visualization
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+greeshma@Vbubuntu$ sudo vim /etc/apache2/mods-enabled/dir.conf
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;15r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[15;1H"/etc/apache2/mods-enabled/dir.conf" 5L, 157C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;130m<IfModule[m[31m mod_dir.c[m[38;5;130m>[m[2;9H[36mDirectoryIndex[m index.html index.cgi index.pl index.php index.[31mxhtml[m indexx[3;1H.htm
+[38;5;130m</IfModule>[m
+
+[34m# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[m
+[94m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [m[15;63H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[93m<IfModule[m[95m mod_dir.c[m[93m>[m[2;9H[1m[96mDirectoryIndex[m index.html index.cgi index.pl index.php index.[95mxhtml[m indexx[3;1H.htm
+[93m</IfModule>[m
+
+[96m# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[m
+[94m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [m[15;63H1,1[11CAll
+"/etc/apache2/mods-enabled/dir.conf" 5L, 157C[1;1H[?25h[?25l[15;53H^X[1;1H[15;53H  [1;1H[?25h[?25l[15;53H^M[1;1H[15;53H  [2;9H[15;63H2,2-9[2;9H[?25h[?25l[15;53H^M[2;9H[15;53H  [4;1H[15;63H3,1  [4;1H[?25h[?25l[15;53H^M[4;1H[15;53H  [5
+script stop 
