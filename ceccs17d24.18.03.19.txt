@@ -1,0 +1,90 @@
+Script started on 2019-03-18 16:09:58+0530
+greeshma@Vbubuntu$ sudo apt-get install perl
+[sudo] password for greeshma: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 99%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+perl is already the newest version (5.26.1-6ubuntu0.3).
+The following packages were automatically installed and are no longer required:
+  i965-va-driver liba52-0.7.4 libaacs0 libaribb24-0 libass9 libavcodec57
+  libavformat57 libavutil55 libbasicusageenvironment1 libbdplus0 libbluray2
+  libcddb2 libchromaprint1 libcrystalhd3 libdc1394-22 libdca0 libdvbpsi10
+  libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1
+  libkate1 liblivemedia62 libmad0 libmatroska6v5 libmicrodns0 libmpcdec6
+  libmpeg2-4 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0 libplacebo4
+  libpostproc54 libproxy-tools libqt5x11extras5 libresid-builder0c2a
+  libsdl-image1.2 libsdl1.2debian libshine3 libsidplay2 libsnappy1v5 libsoxr0
+  libssh-gcrypt-4 libssh2-1 libswresample2 libswscale4 libupnp6
+  libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2 libva2 libvdpau1
+  libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-146
+  libxvidcore4 libzvbi-common libzvbi0 linux-headers-4.15.0-46
+  linux-headers-4.15.0-46-generic linux-image-4.15.0-46-generic
+  linux-modules-4.15.0-46-generic linux-modules-extra-4.15.0-46-generic
+  mesa-va-drivers mesa-vdpau-drivers va-driver-all vdpau-driver-all vlc-bin
+  vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt
+  vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output
+  vlc-plugin-video-splitter vlc-plugin-visualization
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ perl -v
+
+This is perl 5, version 26, subversion 1 (v5.26.1) built for i686-linux-gnu-thread-multi-64int
+(with 67 registered patches, see perl -V for more detail)
+
+Copyright 1987-2017, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+
+greeshma@Vbubuntu$ cat perlprgm.pl
+$num = 10;
+do {
+	print"$num \n";
+	$num--;
+}
+while($num >= 1);
+print("Now value is less than 1 \n");
+greeshma@Vbubuntu$ perl perlprgm.pl
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+2 
+1 
+Now value is less than 1 
+greeshma@Vbubuntu$ exit
+exit
+
+Script done on 2019-03-18 16:24:01+0530
