@@ -1,71 +1,645 @@
-Greshma Shaji
-s4 d
-roll: 24
+Script started on 2019-03-11 13:38:04+0530
+greeshma@Vbubuntu$ sudo apt update
+[sudo] password for greeshma: 
+
+0% [Connecting to in.archive.ubuntu.com (91.189.88.152)] [Waiting for headers][0m
+                                                                              
+Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+[33m
+                                                                              
+0% [Waiting for headers] [1 InRelease 0 B/88.7 kB 0%][0m
+                                                     
+Hit:2 http://in.archive.ubuntu.com/ubuntu bionic InRelease
+[33m
+0% [Waiting for headers] [1 InRelease 27.0 kB/88.7 kB 30%][0m[33m
+0% [2 InRelease gpgv 242 kB] [Waiting for headers] [1 InRelease 29.6 kB/88.7 kB[0m
+                                                                               
+Get:3 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+[33m
+0% [2 InRelease gpgv 242 kB] [3 InRelease 4,905 B/88.7 kB 6%] [1 InRelease 29.6[0m[33m
+                                                                               
+0% [2 InRelease gpgv 242 kB] [3 InRelease 39.5 kB/88.7 kB 45%][0m[33m
+                                                              
+0% [2 InRelease gpgv 242 kB][0m
+                            
+Get:4 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+[33m
+0% [2 InRelease gpgv 242 kB] [4 InRelease 1,005 B/74.6 kB 1%][0m[33m
+                                                             
+0% [4 InRelease 34.8 kB/74.6 kB 47%][0m[33m
+0% [1 InRelease gpgv 88.7 kB] [4 InRelease 34.8 kB/74.6 kB 47%][0m[33m
+                                                               
+0% [1 InRelease gpgv 88.7 kB][0m[33m
+                             
+0% [Working][0m[33m
+0% [3 InRelease gpgv 88.7 kB] [Waiting for headers][0m
+                                                   
+Get:5 http://security.ubuntu.com/ubuntu bionic-security/main i386 Packages [253 kB]
+[33m
+0% [3 InRelease gpgv 88.7 kB] [5 Packages 1,091 B/253 kB 0%][0m[33m
+                                                            
+0% [5 Packages 94.7 kB/253 kB 37%][0m[33m
+0% [4 InRelease gpgv 74.6 kB] [Waiting for headers] [5 Packages 96.0 kB/253 kB [0m
+                                                                               
+Get:6 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [503 kB]
+[33m
+0% [4 InRelease gpgv 74.6 kB] [6 Packages 2,391 B/503 kB 0%] [5 Packages 170 kB[0m[33m
+                                                                               
+27% [6 Packages 46.6 kB/503 kB 9%] [5 Packages 239 kB/253 kB 94%][0m[33m
+                                                                 
+28% [6 Packages 97.3 kB/503 kB 19%][0m[33m
+28% [5 Packages store 0 B] [6 Packages 97.3 kB/503 kB 19%] [Waiting for headers[0m
+                                                                               
+Get:7 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [119 kB]
+[33m
+29% [5 Packages store 0 B] [6 Packages 161 kB/503 kB 32%] [7 Translation-en 1,0[0m[33m
+                                                                               
+30% [6 Packages 164 kB/503 kB 33%] [7 Translation-en 33.6 kB/119 kB 28%][0m[33m
+32% [6 Packages 218 kB/503 kB 43%] [7 Translation-en 98.9 kB/119 kB 83%][0m[33m
+                                                                        
+33% [6 Packages 271 kB/503 kB 54%][0m[33m
+33% [7 Translation-en store 0 B] [6 Packages 271 kB/503 kB 54%][0m
+                                                               
+Get:8 http://security.ubuntu.com/ubuntu bionic-security/main i386 DEP-11 Metadata [14.9 kB]
+[33m
+33% [7 Translation-en store 0 B] [6 Packages 271 kB/503 kB 54%] [8 Components-i[0m[33m
+                                                                               
+34% [7 Translation-en store 0 B] [6 Packages 271 kB/503 kB 54%][0m
+                                                               
+Get:9 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 48x48 Icons [10.4 kB]
+[33m
+34% [7 Translation-en store 0 B] [6 Packages 271 kB/503 kB 54%] [9 icons-48x48 [0m[33m
+                                                                               
+34% [7 Translation-en store 0 B] [6 Packages 271 kB/503 kB 54%][0m
+                                                               
+Get:10 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 64x64 Icons [20.9 kB]
+[33m
+34% [7 Translation-en store 0 B] [6 Packages 271 kB/503 kB 54%] [10 icons-64x64[0m[33m
+                                                                               
+34% [7 Translation-en store 0 B] [6 Packages 271 kB/503 kB 54%][0m
+                                                               
+Get:11 http://security.ubuntu.com/ubuntu bionic-security/universe i386 Packages [238 kB]
+[33m
+34% [7 Translation-en store 0 B] [6 Packages 271 kB/503 kB 54%] [11 Packages 50[0m[33m
+                                                                               
+38% [6 Packages 385 kB/503 kB 76%] [11 Packages 84.0 kB/238 kB 35%][0m[33m
+38% [8 Components-i386 store 0 B] [6 Packages 385 kB/503 kB 76%] [11 Packages 8[0m[33m
+                                                                               
+39% [6 Packages 402 kB/503 kB 80%] [11 Packages 94.4 kB/238 kB 40%][0m[33m
+39% [9 icons-48x48 store 0 B] [6 Packages 402 kB/503 kB 80%] [11 Packages 94.4 [0m[33m
+                                                                               
+39% [6 Packages 402 kB/503 kB 80%] [11 Packages 99.0 kB/238 kB 42%][0m[33m
+39% [10 icons-64x64 store 0 B] [6 Packages 402 kB/503 kB 80%] [11 Packages 102 [0m[33m
+                                                                               
+39% [6 Packages 402 kB/503 kB 80%] [11 Packages 109 kB/238 kB 46%][0m[33m
+43% [6 Packages 498 kB/503 kB 99%] [11 Packages 211 kB/238 kB 89%][0m[33m
+43% [11 Packages 216 kB/238 kB 91%]                                222 kB/s 13s[0m[33m
+43% [6 Packages store 0 B] [11 Packages 223 kB/238 kB 93%]         222 kB/s 13s[0m[33m
+43% [6 Packages store 0 B] [Waiting for headers]                   222 kB/s 13s[0m
+                                                                               
+Get:12 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [139 kB]
+[33m
+43% [6 Packages store 0 B] [Waiting for headers] [12 Translation-en 891 B/139 k[0m
+                                                                               
+Get:13 http://in.archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [220 kB]
+[33m
+44% [6 Packages store 0 B] [13 Translation-en 2,391 B/220 kB 1%] [12 Translatio[0m[33m
+46% [6 Packages store 0 B] [13 Translation-en 16.7 kB/220 kB 8%]   222 kB/s 12s[0m
+                                                                               
+Get:14 http://security.ubuntu.com/ubuntu bionic-security/universe i386 DEP-11 Metadata [35.7 kB]
+[33m
+46% [6 Packages store 0 B] [13 Translation-en 16.7 kB/220 kB 8%] [14 Components[0m
+                                                                               
+Get:15 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 48x48 Icons [16.4 kB]
+[33m
+48% [6 Packages store 0 B] [13 Translation-en 80.4 kB/220 kB 37%] [15 icons-48x[0m
+                                                                               
+Get:16 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 64x64 Icons [92.5 kB]
+[33m
+48% [6 Packages store 0 B] [13 Translation-en 80.4 kB/220 kB 37%] [16 icons-64x[0m[33m
+                                                                               
+48% [13 Translation-en 80.4 kB/220 kB 37%] [16 icons-64x64 7,004 B/92.5 kB 8%][0m[33m
+48% [11 Packages store 0 B] [13 Translation-en 80.4 kB/220 kB 37%] [16 icons-64[0m[33m
+                                                                               
+52% [13 Translation-en 185 kB/220 kB 84%] [16 icons-64x64 72.3 kB/92.5 kB 78%][0m[33m
+52% [12 Translation-en store 0 B] [13 Translation-en 185 kB/220 kB 84%] [16 ico[0m[33m
+                                                                               
+52% [12 Translation-en store 0 B] [13 Translation-en 212 kB/220 kB 97%][0m
+                                                                       
+Get:17 http://security.ubuntu.com/ubuntu bionic-security/multiverse i386 DEP-11 Metadata [2,460 B]
+[33m
+53% [12 Translation-en store 0 B] [13 Translation-en 212 kB/220 kB 97%] [17 Com[0m[33m
+                                                                               
+53% [12 Translation-en store 0 B] [13 Translation-en 215 kB/220 kB 98%][0m[33m
+53% [12 Translation-en store 0 B]                                  222 kB/s 11s[0m
+                                                                               
+Get:18 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 DEP-11 Metadata [276 kB]
+[33m
+                                                                               
+53% [12 Translation-en store 0 B] [18 Components-i386 0 B/276 kB 0%][0m[33m
+54% [18 Components-i386 59.8 kB/276 kB 22%]                        222 kB/s 10s[0m[33m
+                                                                               
+54% [14 Components-i386 store 0 B] [18 Components-i386 59.8 kB/276 kB 22%][0m[33m
+55% [18 Components-i386 104 kB/276 kB 38%]                         222 kB/s 10s[0m[33m
+                                                                               
+55% [15 icons-48x48 store 0 B] [18 Components-i386 105 kB/276 kB 38%][0m[33m
+55% [18 Components-i386 108 kB/276 kB 39%]                         222 kB/s 10s[0m[33m
+                                                                               
+55% [16 icons-64x64 store 0 B] [18 Components-i386 108 kB/276 kB 39%][0m[33m
+55% [18 Components-i386 122 kB/276 kB 44%]                         222 kB/s 10s[0m[33m
+                                                                               
+55% [17 Components-i386 store 0 B] [18 Components-i386 122 kB/276 kB 44%][0m[33m
+56% [18 Components-i386 122 kB/276 kB 44%]                         222 kB/s 10s[0m[33m
+                                                                               
+56% [13 Translation-en store 0 B] [18 Components-i386 122 kB/276 kB 44%][0m[33m
+57% [13 Translation-en store 0 B] [18 Components-i386 216 kB/276 kB 78%][0m[33m
+57% [18 Components-i386 216 kB/276 kB 78%]                         222 kB/s 10s[0m[33m
+58% [Working]                                                       222 kB/s 9s[0m[33m
+58% [18 Components-i386 store 0 B]                                  222 kB/s 9s[0m
+                                                                               
+Get:19 http://in.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 48x48 Icons [66.7 kB]
+[33m
+58% [18 Components-i386 store 0 B] [19 icons-48x48 0 B/66.7 kB 0%]  222 kB/s 9s[0m[33m
+60% [18 Components-i386 store 0 B]                                  222 kB/s 9s[0m
+                                                                               
+Get:20 http://in.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 64x64 Icons [123 kB]
+[33m
+                                                                               
+60% [18 Components-i386 store 0 B] [20 icons-64x64 2,455 B/123 kB 2%][0m[33m
+61% [18 Components-i386 store 0 B] [20 icons-64x64 49.5 kB/123 kB 40%][0m[33m
+61% [20 icons-64x64 49.5 kB/123 kB 40%]                             222 kB/s 9s[0m[33m
+61% [19 icons-48x48 store 0 B] [20 icons-64x64 49.5 kB/123 kB 40%]  222 kB/s 9s[0m[33m
+61% [20 icons-64x64 49.5 kB/123 kB 40%]                             222 kB/s 9s[0m[33m
+62% [Working]                                                       222 kB/s 9s[0m[33m
+62% [20 icons-64x64 store 0 B]                                      222 kB/s 9s[0m
+                                                                               
+Get:21 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [918 kB]
+[33m
+62% [20 icons-64x64 store 0 B] [21 Packages 0 B/918 kB 0%]          222 kB/s 9s[0m[33m
+62% [21 Packages 12.1 kB/918 kB 1%]                                 222 kB/s 9s[0m[33m
+65% [21 Packages 145 kB/918 kB 16%]                                 222 kB/s 8s[0m[33m
+67% [21 Packages 268 kB/918 kB 29%]                                 222 kB/s 7s[0m[33m
+68% [21 Packages 333 kB/918 kB 36%]                                 222 kB/s 7s[0m[33m
+69% [21 Packages 400 kB/918 kB 44%]                                 217 kB/s 7s[0m[33m
+72% [21 Packages 526 kB/918 kB 57%]                                 217 kB/s 6s[0m[33m
+74% [21 Packages 634 kB/918 kB 69%]                                 217 kB/s 6s[0m[33m
+75% [21 Packages 701 kB/918 kB 76%]                                 217 kB/s 6s[0m[33m
+76% [21 Packages 774 kB/918 kB 84%]                                 217 kB/s 5s[0m[33m
+77% [21 Packages 838 kB/918 kB 91%]                                 217 kB/s 5s[0m[33m
+79% [Working]                                                       217 kB/s 5s[0m[33m
+79% [21 Packages store 0 B]                                         217 kB/s 5s[0m
+                                                                               
+Get:22 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [270 kB]
+[33m
+79% [21 Packages store 0 B] [22 Translation-en 0 B/270 kB 0%]       217 kB/s 5s[0m[33m
+81% [21 Packages store 0 B] [22 Translation-en 126 kB/270 kB 47%]   217 kB/s 4s[0m[33m
+82% [21 Packages store 0 B] [22 Translation-en 201 kB/270 kB 74%]   217 kB/s 4s[0m[33m
+83% [22 Translation-en 223 kB/270 kB 83%]                           217 kB/s 4s[0m[33m
+84% [Working]                                                       217 kB/s 3s[0m[33m
+84% [22 Translation-en store 0 B]                                   217 kB/s 3s[0m
+                                                                               
+Get:23 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe i386 DEP-11 Metadata [227 kB]
+[33m
+                                                                               
+84% [22 Translation-en store 0 B] [23 Components-i386 0 B/227 kB 0%][0m[33m
+85% [22 Translation-en store 0 B] [23 Components-i386 85.3 kB/227 kB 38%][0m[33m
+86% [23 Components-i386 87.9 kB/227 kB 39%]                         217 kB/s 3s[0m[33m
+86% [23 Components-i386 94.4 kB/227 kB 42%]                         217 kB/s 3s[0m[33m
+87% [23 Components-i386 166 kB/227 kB 73%]                          217 kB/s 3s[0m[33m
+88% [Working]                                                       158 kB/s 3s[0m[33m
+88% [23 Components-i386 store 0 B]                                  158 kB/s 3s[0m
+                                                                               
+Get:24 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 48x48 Icons [198 kB]
+[33m
+88% [23 Components-i386 store 0 B] [24 icons-48x48 0 B/198 kB 0%]   158 kB/s 3s[0m[33m
+89% [24 icons-48x48 26.0 kB/198 kB 13%]                             158 kB/s 3s[0m[33m
+90% [24 icons-48x48 101 kB/198 kB 51%]                              158 kB/s 3s[0m[33m
+91% [24 icons-48x48 179 kB/198 kB 91%]                              158 kB/s 2s[0m[33m
+92% [Working]                                                       158 kB/s 2s[0m[33m
+92% [24 icons-48x48 store 0 B]                                      158 kB/s 2s[0m
+                                                                               
+Get:25 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 64x64 Icons [405 kB]
+[33m
+92% [24 icons-48x48 store 0 B] [25 icons-64x64 0 B/405 kB 0%]       158 kB/s 2s[0m[33m
+92% [25 icons-64x64 20.5 kB/405 kB 5%]                              158 kB/s 2s[0m[33m
+94% [25 icons-64x64 126 kB/405 kB 31%]                              158 kB/s 1s[0m[33m
+95% [25 icons-64x64 175 kB/405 kB 43%]                              158 kB/s 1s[0m[33m
+95% [25 icons-64x64 176 kB/405 kB 44%]                              158 kB/s 1s[0m[33m
+97% [25 icons-64x64 265 kB/405 kB 65%]                              158 kB/s 0s[0m[33m
+97% [25 icons-64x64 304 kB/405 kB 75%]                              158 kB/s 0s[0m[33m
+99% [25 icons-64x64 399 kB/405 kB 98%]                              158 kB/s 0s[0m[33m
+99% [Working]                                                       158 kB/s 0s[0m[33m
+99% [25 icons-64x64 store 0 B]                                      158 kB/s 0s[0m
+                                                                               
+Get:26 http://in.archive.ubuntu.com/ubuntu bionic-updates/multiverse i386 DEP-11 Metadata [2,464 B]
+[33m
+99% [25 icons-64x64 store 0 B] [26 Components-i386 0 B/2,464 B 0%]  158 kB/s 0s[0m[33m
+99% [25 icons-64x64 store 0 B]                                      158 kB/s 0s[0m
+                                                                               
+Get:27 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe i386 Packages [3,492 B]
+[33m
+99% [25 icons-64x64 store 0 B] [27 Packages 0 B/3,492 B 0%]         158 kB/s 0s[0m[33m
+99% [25 icons-64x64 store 0 B]                                      158 kB/s 0s[0m
+                                                                               
+Get:28 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe i386 DEP-11 Metadata [7,160 B]
+[33m
+99% [25 icons-64x64 store 0 B] [28 Components-i386 0 B/7,160 B 0%]  158 kB/s 0s[0m[33m
+100% [25 icons-64x64 store 0 B]                                     158 kB/s 0s[0m[33m
+100% [Working]                                                      158 kB/s 0s[0m[33m
+100% [26 Components-i386 store 0 B]                                 158 kB/s 0s[0m[33m
+100% [Working]                                                      158 kB/s 0s[0m[33m
+100% [27 Packages store 0 B]                                        158 kB/s 0s[0m[33m
+100% [Working]                                                      158 kB/s 0s[0m[33m
+100% [28 Components-i386 store 0 B]                                 158 kB/s 0s[0m[33m
+100% [Working]                                                      158 kB/s 0s[0m
+                                                                               
+Fetched 4,414 kB in 24s (184 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 4%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 9%
+
+Reading package lists... 13%
+
+Reading package lists... 18%
+
+Reading package lists... 23%
+
+Reading package lists... 27%
+
+Reading package lists... 30%
+
+Reading package lists... 35%
+
+Reading package lists... 37%
+
+Reading package lists... 41%
+
+Reading package lists... 46%
+
+Reading package lists... 51%
+
+Reading package lists... 53%
+
+Reading package lists... 53%
+
+Reading package lists... 55%
+
+Reading package lists... 58%
+
+Reading package lists... 60%
+
+Reading package lists... 75%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 82%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 88%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
 
 
-Script started on 2019-02-11 23:00:53+0530
-greeshma@Vbubuntu$ sftp ceccs17d24@14.139.189.217
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs17d24@14.139.189.217's password: 
-Connected to 14.139.189.217.
-sftp> ls
-ceccs17d24.10.02.2019.txt               ceccs17d24.10.04.2019                   
-ceccs17d24.11.02.2019(t2).txt           ceccs17d24.11.02.2019.txt               
-ceccs17d24.24.03.2019.sh                ceccs17d24.25.02.19.txt                 
-ceccs17d24.25.02.2019.txt               examples.desktop                        
-http.png                                index.html                              
-newfile.txt                             
-sftp> lpwd
-Local working directory: /home/greeshma
-sftp> lls
- ceccs17d.18.03.19.txt		  cs17d24@192.168.0.20	 result_CHN.pdf
- ceccs17d24.10.02.2019.txt	  cs17d24@192.168.0.30	 result_CHN.txt
- ceccs17d24.10.03.2019		  Desktop		 result_cs.txt
- ceccs17d24.10.04.2019		  Documents		 results2.txt
-'ceccs17d24.11.02.2019(t2).txt'   Downloads		 s1s2final.txt
- ceccs17d24.11.02.2019.txt	  examples.desktop	 s1_sgpa.txt
- ceccs17d24.11.03.2019.txt	  index.h		 s1sgpa.txt
- ceccs17d24.11.04.2019.txt	  index.html		 s1.txt
- ceccs17d24.18.03.3019.txt	  ktu.edu.in		 s2results.pdf
- ceccs17d24.24.03.2019.sh	  Music			 s2results.txt
- ceccs17d24.24.03.2019.txt	  new			 s4d.txt
- ceccs17d24.25.02.19.txt	  new.txt		 sample
- ceccs17d24.25.02.2019.txt	  perl			'Task 2.txt'
- ceccs17d24.25.03.2019		  Pictures		 Templates
- ceccs17d24.29.04.2019.txt	  Public		 test.txt
- ceccs17d24.txt			  reg2.txt		 today.txt
- cs17d24			  res2.txt		 Videos
- cs17d24@14.139.189.217		  res.txt
-sftp> put ceccs17d24.25.03.2019.txt
-stat ceccs17d24.25.03.2019.txt: No such file or directory
+Building dependency tree... 0%
 
-sftp> '/home/greeshma/ceccs17d24.11.03.2019.txt' 
-Uploading /home/greeshma/ceccs17d24.11.03.2019.txt to /home/cs17d24/ceccs17d24.11.03.2019.txt
+Building dependency tree... 0%
 
-/home/greeshma/ceccs17d24.11.03.2019.txt        0%    0     0.0KB/s   --:-- ETA
-/home/greeshma/ceccs17d24.11.03.2019.txt      100% 4096     9.1KB/s   00:00    
-sftp> ls
-ceccs17d24.10.02.2019.txt               ceccs17d24.10.04.2019                   
-ceccs17d24.11.02.2019(t2).txt           ceccs17d24.11.02.2019.txt               
-ceccs17d24.11.03.2019.txt               ceccs17d24.24.03.2019.sh                
-ceccs17d24.25.02.19.txt                 ceccs17d24.25.02.2019.txt               
-examples.desktop                        http.png                                
-index.html                              newfile.txt                             
-sftp> rm  ceccs17d24.11.03.2019.txt
-Removing /home/cs17d24/ceccs17d24.11.03.2019.txt
-sftp> ls
-ceccs17d24.10.02.2019.txt               ceccs17d24.10.04.2019                   
-ceccs17d24.11.02.2019(t2).txt           ceccs17d24.11.02.2019.txt               
-ceccs17d24.24.03.2019.sh                ceccs17d24.25.02.19.txt                 
-ceccs17d24.25.02.2019.txt               examples.desktop                        
-http.png                                index.html                              
-newfile.txt                             
-sftp> bye
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 80%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+139 packages can be upgraded. Run 'apt list --upgradable' to see them.
+greeshma@Vbubuntu$ sudo apt install vsftpd
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 99%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages were automatically installed and are no longer required:
+  libcapnp-0.5.3 libhardware2 libhybris libhybris-common1 libllvm6.0 libmedia1
+  libwebpdemux1 linux-generic linux-generic-hwe-16.04 linux-headers-generic
+  linux-headers-generic-hwe-16.04 linux-image-generic-hwe-16.04
+  snapd-login-service xserver-xorg-input-evdev-hwe-16.04
+  xserver-xorg-input-synaptics-hwe-16.04 xserver-xorg-legacy-hwe-16.04
+  xserver-xorg-video-amdgpu-hwe-16.04 xserver-xorg-video-qxl-hwe-16.04
+  xserver-xorg-video-vesa-hwe-16.04
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 139 not upgraded.
+Need to get 126 kB of archives.
+After this operation, 369 kB of additional disk space will be used.
+[33m
+0% [Working][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m[33m
+                                        
+0% [Waiting for headers][0m
+                        
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main i386 vsftpd i386 3.0.3-9build1 [126 kB]
+[33m
+0% [1 vsftpd 0 B/126 kB 0%][0m[33m
+24% [1 vsftpd 37.4 kB/126 kB 30%][0m[33m
+                                 
+100% [Working][0m
+              
+Fetched 126 kB in 2s (60.1 kB/s)
+Preconfiguring packages ...
+
+7[0;23r8[1ASelecting previously unselected package vsftpd.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 194702 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-9build1_i386.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 17%][49m[39m [#########.................................................] 8Unpacking vsftpd (3.0.3-9build1) ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [###################.......................................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 8Processing triggers for ureadahead (0.100.0-20) ...
+Setting up vsftpd (3.0.3-9build1) ...
+7[24;0f[42m[30mProgress: [ 67%][49m[39m [######################################....................] 8Created symlink /etc/systemd/system/multi-user.target.wants/vsftpd.service → /lib/systemd/system/vsftpd.service.
+7[24;0f[42m[30mProgress: [ 83%][49m[39m [################################################..........] 8Processing triggers for systemd (237-3ubuntu10.19) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+
+greeshma@Vbubuntu$ sudo cp /etc/vsftpd.conf /etc/vtsftpd.conf.orig
+greeshma@Vbubuntu$ sudo ufw status
+Status: inactive
+greeshma@Vbubuntu$ sudo ufw allow 20/tcp
+Rules updated
+Rules updated (v6)
+greeshma@Vbubuntu$ sudo ufw allow 21/tcp
+Rules updated
+Rules updated (v6)
+greeshma@Vbubuntu$ sudo ufw allow 990/tcp
+Rules updated
+Rules updated (v6)
+greeshma@Vbubuntu$ sudo ufw allow 40000:50000/tcp
+Rules updated
+Rules updated (v6)
+greeshma@Vbubuntu$ sudo ufw status
+Status: inactive
+greeshma@Vbubuntu$ sudo adduser joremote
+Adding user `joremote' ...
+Adding new group `joremote' (1001) ...
+Adding new user `joremote' (1001) with group `joremote' ...
+Creating home directory `/home/joremote' ...
+Copying files from `/etc/skel' ...
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for joremote
+Enter the new value, or press ENTER for the default
+	Full Name []: Greshma
+	Room Number []: 123
+	Work Phone []: 123456789
+	Home Phone []: 7561802633
+	Other []: bo  no
+Is the information correct? [Y/n] y
+greeshma@Vbubuntu$ sudo mkdir /home/joremote/ftp
+greeshma@Vbubuntu$ sudo  chmod a-w /home/joremote nobody:nogroup /home/joremot ftp
+greeshma@Vbubuntu$ sudo chmod a-w /home/joremote/ftp
+
+greeshma@Vbubuntu$ sudo ls -la /home/joremote/ftp
+total 8
+dr-xr-xr-x 2 nobody   nogroup  4096 May  9 13:47 .
+drwxr-xr-x 3 joremote joremote 4096 May  9 13:47 ..
+greeshma@Vbubuntu$ sudo mkdir /home/joremote/ftp/files
+greeshma@Vbubuntu$ sudo chown joremote:joremote /home/joremote/ftp/files
+greeshma@Vbubuntu$ sudo ls -la /home/joremote/ftp
+total 12
+dr-xr-xr-x 3 nobody   nogroup  4096 May  9 13:49 .
+drwxr-xr-x 3 joremote joremote 4096 May  9 13:47 ..
+drwxr-xr-x 2 joremote joremote 4096 May  9 13:49 files
+greeshma@Vbubuntu$ sudonano /etc/vsftpd.conf
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;32H(B[0;7m[ Read 155 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                   /etc/vsftpd.conf                             [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[3d[39;49m[36m# Example config file /etc/vsftpd.conf
+[4d#[5d# The default compiled in settings are fairly paranoid. This sample file
+[6d# loosens things up a bit, to make the ftp daemon more usable.
+[7d# Please see vsftpd.conf.5 for all compiled in defaults.
+[8d#[9d# READ THIS: This example file is NOT an exhaustive list of vsftpd options.
+[10d# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's
+[11d# capabilities.
+[12d#[13d#[14d# Run standalone?  vsftpd can run either from an inetd or as a standalone
+[15d# daemon started from an initscript.
+[16d[39m(B[mlisten=NO
+[17d[36m#[18d# This directive enables listening on IPv6 sockets. By default, listening
+[19d# on the IPv6 "any" address (::) will accept connections from both IPv6
+[20d# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6
+[21d# sockets. If you want that (perhaps because you want to listen on specific
+[3d[39m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[3de# Example config file /etc/vsftpd.conf
+e[?12l[?25h[?25lx# Example config file /etc/vsftpd.conf
+ex[?12l[?25h[?25li# Example config file /etc/vsftpd.conf
+exi[?12l[?25h[?25lt# Example config file /etc/vsftpd.conf[5G[?12l[?25h[?25l[2;21r[2;1HM[1;24r[3;1Hexit
+[4d[36m# Example config file /etc/vsftpd.conf[39m(B[m[K
+[?12l[?25h[?25l[4;21r[21;1H
+[1;24r[3;5H# Example config file /etc/vsftpd.conf
+[21d[36m# sockets. If you want that (perhaps because you want to listen on specific[3;5H[39m(B[m[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[36m# Example config file /etc/vsftpd.conf[39m(B[m[K
+[?12l[?25h[?25l^# Example config file /etc/vsftpd.conf
+^[?12l[?25h[?25lX# Example config file /etc/vsftpd.conf
+^X[?12l[?25h[?25l[2;21r[2;1HM[1;24r[3;1H^X
+[4d[36m# Example config file /etc/vsftpd.conf[39m(B[m[K
+[?12l[?25h[?25l[4;21r[21;1H
+[1;24r[3;3H# Example config file /etc/vsftpd.conf
+[21d[36m# sockets. If you want that (perhaps because you want to listen on specific[3;3H[39m(B[m[?12l[?25h[?25l[1P[?12l[?25h[?25l[36m# Example config file /etc/vsftpd.conf[39m(B[m[K
+[?12l[?25h[?25l[22;15H(B[0;7m[ line 1/156 (0%), col 1/39 (2%), char 0/5850 (0%) ](B[m
+[3d[?12l[?25h[?25l[2;21r[2;1HM[1;24r[4;1H[?12l[?25h[?25l[2;21r[2;1HM[1;24r[5;1H[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                   [23;1H Y(B[m Yes[K
+[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;63H[?12l[?25h[?25l
+[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File
+[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files
+[22d(B[0;7mFile Name to Write: /etc/vsftpd.conf                         
+(B[m[22;37H[?12l[?25h[?25l
+[K[1;79H[1;71H(B[0;7m        (B[m[22;31H(B[0;7m[ Wrote 157 lines ](B[m
+[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+greeshma@Vbubuntu$ echo "vsftpd test file" | sudo tee /home/joremote/
+greeshma@Vbubuntu$ echo "vsftpd test file" | sudo tee /home/joremote/
+greeshma@Vbubuntu$ echo "vsftpd test file" | sudo tee /home/joremote/
+greeshma@Vbubuntu$ echo "vsftpd test file" | sudo tee /home/joremote/
+greeshma@Vbubuntu$ echo "vsftpd test file" | sudo tee /home/joremote/
+greeshma@Vbubuntu$ echo "vsftpd test file" | sudo tee /home/joremote/ftp/files 
+/test.txt
+vsftpd test file
+greeshma@Vbubuntu$ echo "joremote" | sudo tee -a /etc/vstftpd.userlist
+joremote
+greeshma@Vbubuntu$ cat /etc/vsftpd.userlist
+joremote
+greeshma@Vbubuntu$ sudo systemctl restart vsftpd
 greeshma@Vbubuntu$ exit
 exit
 
-Script done on 2019-02-11 23:04:03+0530
+Script done on 2019-03-11 13:55:37+0530
