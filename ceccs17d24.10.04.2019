@@ -1,68 +1,0 @@
-Script started on 2019-04-11 21:04:45+0530
-]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ [K]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ [K]0;greeshma@Vbubuntu: ~[01;32mgreeshma@Vbubuntu[00m:[01;34m~[00m$ sudo apt-get install nginx
-[sudo] password for greeshma: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 84%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
-The following packages were automatically installed and are no longer required:
-  libcapnp-0.5.3 libhardware2 libhybris libhybris-common1 libllvm6.0 libmedia1
-  libwebpdemux1 linux-generic linux-generic-hwe-16.04 linux-headers-generic
-  linux-headers-generic-hwe-16.04 linux-image-generic-hwe-16.04
-  snapd-login-service xserver-xorg-input-evdev-hwe-16.04
-  xserver-xorg-input-synaptics-hwe-16.04 xserver-xorg-legacy-hwe-16.04
-  xserver-xorg-video-amdgpu-hwe-16.04 xserver-xorg-video-qxl-hwe-16.04
-  xserver-xorg-video-vesa-hwe-16.04
-Use 'sudo apt autoremove' to remove them.
-The following additional packages will be installed:
-  libnginx-mod-http-geoip libnginx-mod-http-image-filter
-  libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream
-  nginx-common nginx-core
-Suggested packages:
-  fcgiwrap nginx-doc
-The following NEW packages will be installed:
-  libnginx-mod-http-geoip libnginx-mod-http-image-filter
-  libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream nginx
-  nginx-common nginx-core
-0 upgraded, 8 newly installed, 0 to remove and 62 not upgraded.
-Need to get 647 kB of archives.
-After this operation, 2,133 kB of additional disk space will be used.
-Do you want to continue? [Y/n] y
-0% [Working]0% [Connecting to in.archive.ubuntu.com (91.189.88.149)]                                                        0% [Waiting for headers]                        Get:1 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 nginx-common all 1.14.0-0ubuntu1.2 [37.4 kB]
-0% [1 nginx-common 0 B/37.4 kB 0%]4% [1 nginx-common 29.6 kB/37.4 kB 79%]                                       7% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 libnginx-mod-http-geoip i386 1.14.0-0ubuntu1.2 [11.6 kB]
-7% [2 libnginx-mod-http-geoip 0 B/11.6 kB 0%]                                             11% [Working]             Get:3 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 libnginx-mod-http-image-filter i386 1.14.0-0ubuntu1.2 [15.0 kB]
-11% [3 libnginx-mod-http-image-filter 0 B/15.0 kB 0%]                                                     15% [Working]             Get:4 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 libnginx-mod-http-xslt-filter i386 1.14.0-0ubuntu1.2 [13.5 kB]
-15% [4 libnginx-mod-http-xslt-filter 0 B/13.5 kB 0%]                                                    20% [Working]             Get:5 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 libnginx-mod-mail i386 1.14.0-0ubuntu1.2 [44.0 kB]
-20% [5 libnginx-mod-mail 0 B/44.0 kB 0%]                                        28% [Working]             Get:6 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 libnginx-mod-stream i386 1.14.0-0ubuntu1.2 [69.8 kB]
-28% [6 libnginx-mod-stream 0 B/69.8 kB 0%]                                          39% [Working]             Get:7 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 nginx-core i386 1.14.0-0ubuntu1.2 [452 kB]
-39% [7 nginx-core 4,096 B/452 kB 1%]53% [7 nginx-core 114 kB/452 kB 25%]70% [7 nginx-core 253 kB/452 kB 56%]80% [7 nginx-core 338 kB/452 kB 75%]81% [7 nginx-core 340 kB/452 kB 75%]81% [7 nginx-core 343 kB/452 kB 76%]                               88.8 kB/s 1s82% [7 nginx-core 351 kB/452 kB 77%]                               88.8 kB/s 1s82% [7 nginx-core 354 kB/452 kB 78%]                               88.8 kB/s 1s83% [7 nginx-core 356 kB/452 kB 79%]                               88.8 kB/s 1s83% [7 nginx-core 357 kB/452 kB 79%]                               88.8 kB/s 1s84% [7 nginx-core 366 kB/452 kB 81%]                               88.8 kB/s 1s85% [7 nginx-core 376 kB/452 kB 83%]                               88.8 kB/s 0s85% [7 nginx-core 376 kB/452 kB 83%]                               88.8 kB/s 0s85% [7 nginx-core 376 kB/452 kB 83%]                               88.8 kB/s 0s85% [7 nginx-core 379 kB/452 kB 84%]                               88.8 kB/s 0s85% [7 nginx-core 379 kB/452 kB 84%]                               88.8 kB/s 0s85% [7 nginx-core 379 kB/452 kB 84%]                               88.8 kB/s 0s85% [7 nginx-core 379 kB/452 kB 84%]                              6,002 B/s 12s86% [7 nginx-core 380 kB/452 kB 84%]                              6,002 B/s 12s86% [7 nginx-core 384 kB/452 kB 85%]                              6,002 B/s 11s87% [7 nginx-core 389 kB/452 kB 86%]                              6,002 B/s 11s92% [7 nginx-core 432 kB/452 kB 96%]                               6,002 B/s 3s97% [Working]                                                      6,002 B/s 0s                                                                               Get:8 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 nginx all 1.14.0-0ubuntu1.2 [3,596 B]
-97% [8 nginx 0 B/3,596 B 0%]                                       6,002 B/s 0s100% [Working]                                                     6,002 B/s 0s                                                                               Fetched 647 kB in 14s (44.9 kB/s)
-Preconfiguring packages ...
-Selecting previously unselected package nginx-common.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 192329 files and directories currently installed.)
-Preparing to unpack .../0-nginx-common_1.14.0-0ubuntu1.2_all.deb ...
-Unpacking nginx-common (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package libnginx-mod-http-geoip.
-Preparing to unpack .../1-libnginx-mod-http-geoip_1.14.0-0ubuntu1.2_i386.deb ...
-Unpacking libnginx-mod-http-geoip (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package libnginx-mod-http-image-filter.
-Preparing to unpack .../2-libnginx-mod-http-image-filter_1.14.0-0ubuntu1.2_i386.deb ...
-Unpacking libnginx-mod-http-image-filter (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package libnginx-mod-http-xslt-filter.
-Preparing to unpack .../3-libnginx-mod-http-xslt-filter_1.14.0-0ubuntu1.2_i386.deb ...
-Unpacking libnginx-mod-http-xslt-filter (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package libnginx-mod-mail.
-Preparing to unpack .../4-libnginx-mod-mail_1.14.0-0ubuntu1.2_i386.deb ...
-Unpacking libnginx-mod-mail (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package libnginx-mod-stream.
-Preparing to unpack .../5-libnginx-mod-stream_1.14.0-0ubuntu1.2_i386.deb ...
-Unpacking libnginx-mod-stream (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package nginx-core.
-Preparing to unpack .../6-nginx-core_1.14.0-0ubuntu1.2_i386.deb ...
-Unpacking nginx-core (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package nginx.
-Preparing to unpack .../7-nginx_1.14.0-0ubuntu1.2_all.deb ...
-Unpacking nginx (1.14.0-0ubuntu1.2) ...
-Processing triggers for ufw (0.35-5) ...
-Processing triggers for ureadahead (0.100.0-20) ...
-Setting up nginx-common (1.14.0-0ubuntu1.2) ...
-Created symlink
