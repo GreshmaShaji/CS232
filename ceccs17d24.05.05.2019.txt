@@ -1,0 +1,29 @@
+Script started on 2019-05-05 08:38:10+0530
+greeshma@Vbubuntu$ sftp  cs17d24@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d24@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> put index.html
+Uploading index.html to /home/cs17d24/index.html
+
+index.html                                      0%    0     0.0KB/s   --:-- ETA
+index.html                                    100% 8452    10.1KB/s   00:00    
+sftp> ls
+IMG-20190311-WA0115.jpg                 ceccs17d24.10.02.2019.txt               
+ceccs17d24.10.04.2019                   ceccs17d24.11.02.2019(t2).txt           
+ceccs17d24.11.02.2019.txt               ceccs17d24.11.03.2019.txt               
+ceccs17d24.18.03.19.txt                 ceccs17d24.18.03.2019.txt               
+ceccs17d24.24.03.2019.sh                ceccs17d24.25.02.19.txt                 
+ceccs17d24.25.02.2019.txt               ceccs17d24.25.03.2019.txt               
+examples.desktop                        http.png                                
+index.html                              kernal.sh                               
+newfile.txt                             perlprgm.pl                             
+sftp> exit
+greeshma@Vbubuntu$ exit
+exit
+
+Script done on 2019-05-05 08:39:57+0530
